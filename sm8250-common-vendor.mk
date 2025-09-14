@@ -1044,6 +1044,23 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.ant@1.0 \
     fm_helium \
     libfm-hci \
+    libmmosal \
+    libmmparser_lite \
+    libmmrtpdecoder \
+    libmmrtpencoder \
+    libwfdclient \
+    libwfdcommonutils \
+    libwfdconfigutils \
+    libwfddisplayconfig \
+    libwfdmminterface \
+    libwfdmmsink \
+    libwfdrtsp \
+    libwfdsinksm \
+    libwfduibcinterface \
+    libwfduibcsink \
+    libwfduibcsinkinterface \
+    libwfduibcsrc \
+    libwfduibcsrcinterface \
     vendor.qti.hardware.audiohalext@1.0 \
     vendor.qti.hardware.fm@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
