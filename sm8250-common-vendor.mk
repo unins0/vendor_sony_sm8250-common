@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/dsx_param_file.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dsx_param_file.bin \
     vendor/sony/sm8250-common/proprietary/vendor/etc/idd.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/idd.fstab \
     vendor/sony/sm8250-common/proprietary/vendor/etc/iddd_user.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd_user.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
@@ -168,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/media_vib/media_vib_params_rev3:$(TARGET_COPY_OUT_VENDOR)/etc/media_vib/media_vib_params_rev3 \
     vendor/sony/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml \
@@ -408,6 +410,7 @@ PRODUCT_PACKAGES += \
     libSForceVSE \
     libSNPE \
     libVkLayer_q3dtools \
+    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -420,6 +423,7 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudiokeymgr \
     libaudioparsers \
+    libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
@@ -430,9 +434,11 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libcdsp_default_listener \
     libcdsprpc \
+    libcomprcapture \
     libdevice_security_vendor \
     libdiag \
     libdpmqmihal \
+    libexthwplugin \
     libfastcvdsp_stub \
     libfastcvopt \
     libgcs-calwrapper \
@@ -443,7 +449,9 @@ PRODUCT_PACKAGES += \
     libgsl \
     libhdcprx_module \
     libhdcptx_module \
+    libhdmiedid \
     libhdmipassthru \
+    libhfp \
     libiVptApi \
     libiVptHkiDec \
     libiVptLibC \
@@ -476,10 +484,12 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
+    libsndmonitor \
     libsnpe_dsp_domains_v2 \
     libsoc_helper \
     libsony3daudioeffect \
     libsonydseehxwrapper \
+    libspkrprot \
     libstagefright_hdcp \
     libstagefright_soft_qtiflacdec \
     libsuntory \
